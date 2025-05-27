@@ -1,0 +1,12 @@
+Pillow
+requests
+gradio
+safetensors
+numpy
+einops
+huggingface_hub
+safetensors
+gradio
+torch==2.5.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
+torchvision==0.20.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
+torchaudio==2.5.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
