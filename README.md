@@ -23,14 +23,14 @@ This project builds on the [AuraSR repository](https://github.com/fal-ai/aura-sr
 1. **Clone the Repository**:
    Open Command Prompt or PowerShell and run:
    ```bash
-   git clone https://huggingface.co/<your-username>/<your-repo-name>
-   cd <your-repo-name>
+   git clone https://huggingface.co/<your-username>/<your-repo-name>](https://github.com/DragonDiffusionbyBoyo/Boyo-Aura-SR
+   cd Boyo-Aura-SR
    ```
 
 2. **Create a Virtual Environment**:
    ```bash
    python -m venv venv
-   venv\Scripts\activate
+   .\venv\Scripts\activate
    ```
 
 3. **Install Dependencies**:
@@ -40,14 +40,18 @@ This project builds on the [AuraSR repository](https://github.com/fal-ai/aura-sr
    ```
    The `requirements.txt` specifies:
    ```
-   numpy
-   einops
-   huggingface_hub
-   safetensors
-   gradio
-   torch==2.5.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
-   torchvision==0.20.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
-   torchaudio==2.5.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
+Pillow
+requests
+gradio
+safetensors
+numpy
+einops
+huggingface_hub
+safetensors
+gradio
+torch==2.5.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
+torchvision==0.20.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
+torchaudio==2.5.0+cu126 --extra-index-url https://download.pytorch.org/whl/cu126
    ```
 
 4. **Verify CUDA**:
