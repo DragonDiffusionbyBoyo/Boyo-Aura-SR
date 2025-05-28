@@ -23,7 +23,7 @@ This project builds on the [AuraSR repository](https://github.com/fal-ai/aura-sr
 1. **Clone the Repository**:
    Open Command Prompt or PowerShell and run:
    ```bash
-   git clone (https://github.com/DragonDiffusionbyBoyo/Boyo-Aura-SR
+   git clone https://github.com/DragonDiffusionbyBoyo/Boyo-Aura-SR
    cd Boyo-Aura-SR
    ```
 
